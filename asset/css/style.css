@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+body{
     background-color: #B91450;
+}
+.container{
     padding: 20px;
 }
 h1{
@@ -14,8 +16,6 @@ h1{
     padding: 20px 0;
 }
 .priceContainer{
-    width: 80%;
-    margin: auto;
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
@@ -23,7 +23,35 @@ h1{
 .mainContent{
     background-color: white;
     border-radius: 50px;
+    width: 80%;
+    margin: auto;
 }
 .buttons{
     text-align: center;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.bigliettoGenerato{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.infoBiglietto{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.cardPasseggero{
+    background-color: grey;
+}
+.containerDNone{
+    display: none;
+}
+.dBlock{
+    display: block;
 }
