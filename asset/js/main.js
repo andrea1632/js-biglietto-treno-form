@@ -34,10 +34,10 @@ bottoneGenera.addEventListener("click",
             document.getElementById("prezzoBiglietto").innerHTML = `€${prezzoPieno}`
         } else if(age == "minorenne"){
             document.getElementById("offerta").innerHTML = `Biglietto Giovani`
-            document.getElementById("prezzoBiglietto").innerHTML = `€${prezzoPieno - scontoMinori}`
+            document.getElementById("prezzoBiglietto").innerHTML = `€${prezzoGiovani}`
         } else{
             document.getElementById("offerta").innerHTML = `Biglietto Anziani`
-            document.getElementById("prezzoBiglietto").innerHTML = `€${prezzoPieno - scontoAnziani}`
+            document.getElementById("prezzoBiglietto").innerHTML = `€${prezzoAnziani}`
         }
         document.getElementById("carrozza").innerHTML = Math.floor(Math.random() * 10);
         document.getElementById("codiceCp").innerHTML = Math.floor(Math.random() * 99999);
